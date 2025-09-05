@@ -1,0 +1,181 @@
+[
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Ad\u0027s block"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "process": [
+      "steam.exe",
+      "epicgameslauncher.exe",
+      "origin.exe",
+      "eaapp.exe",
+      "battle.net.exe",
+      "UbisoftConnect.exe",
+      "RiotClientServices.exe",
+      "valorant.exe",
+      "LeagueClient.exe",
+      "fortniteclient-win64-shipping.exe",
+      "Overwatch.exe",
+      "CSGO.exe",
+      "dota2.exe",
+      "pubg.exe",
+      "minecraft.exe",
+      "RobloxPlayerBeta.exe",
+      "GenshinImpact.exe",
+      "ApexLegends.exe",
+      "EasyAntiCheat.exe",
+      "EACLauncher.exe",
+      "FaceitClient.exe",
+      "vanguard.exe"
+    ],
+    "enabled": true,
+    "remarks": "Games process"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "process": [
+      "v2ray",
+      "clash",
+      "ss-local",
+      "privoxy",
+      "trojan",
+      "trojan-go",
+      "naive",
+      "Thunder",
+      "DownloadService",
+      "qBittorrent",
+      "Transmission",
+      "fdm",
+      "aria2c",
+      "Folx",
+      "NetTransport",
+      "uTorrent",
+      "WebTorrent"
+    ],
+    "enabled": true,
+    "remarks": "Process direct only"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:aliexpress.com",
+      "domain:aliexpress.ru",
+      "domain:ae.com",
+      "domain:aliexpress.us"
+    ],
+    "enabled": true,
+    "remarks": "Aliexpress"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Torrents"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true,
+    "remarks": ""
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru",
+      "geoip:by",
+      "geoip:kz",
+      "geoip:kg",
+      "geoip:uz",
+      "geoip:tm",
+      "geoip:tj"
+    ],
+    "enabled": true,
+    "remarks": "RU ip"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:ru",
+      "domain:by",
+      "domain:kz",
+      "domain:kg",
+      "domain:uz",
+      "domain:tm",
+      "domain:tj",
+      "domain:xn--p1ai"
+    ],
+    "enabled": true,
+    "remarks": "RU domain"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "full:google.ru",
+      "full:www.google.ru",
+      "domain:gmail.com",
+      "domain:xda-developers.com",
+      "domain:xdaforums.com",
+      "regexp:^google\\.[a-z]\u002B$",
+      "regexp:^www\\.google\\.[a-z]\u002B$"
+    ],
+    "enabled": true,
+    "remarks": "Google search \u002B Gmail"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:steam",
+      "geosite:epicgames",
+      "geosite:category-games"
+    ],
+    "enabled": true,
+    "remarks": "Games domain"
+  },
+  {
+    "type": "field",
+    "port": "",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:google"
+    ],
+    "enabled": true,
+    "remarks": "Google other"
+  }
+]

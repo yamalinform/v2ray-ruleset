@@ -1,0 +1,103 @@
+[
+  {
+    "type": "field",
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "Ad\u0027s block"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:aliexpress.com",
+      "domain:aliexpress.ru",
+      "domain:ae.com",
+      "domain:aliexpress.us"
+    ],
+    "enabled": true,
+    "remarks": "Aliexpress"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "Torrents"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "enabled": true
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:ru",
+      "geoip:by",
+      "geoip:kz",
+      "geoip:kg",
+      "geoip:uz",
+      "geoip:tm",
+      "geoip:tj"
+    ],
+    "enabled": true,
+    "remarks": "RU ip"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "domain:ru",
+      "domain:by",
+      "domain:kz",
+      "domain:kg",
+      "domain:uz",
+      "domain:tm",
+      "domain:tj",
+      "domain:xn--p1ai"
+    ],
+    "enabled": true,
+    "remarks": "RU domain"
+  },
+  {
+    "type": "field",
+    "outboundTag": "direct",
+    "domain": [
+      "full:google.ru",
+      "full:www.google.ru",
+      "domain:gmail.com",
+      "domain:xda-developers.com",
+      "domain:xdaforums.com",
+      "regexp:^google\\.[a-z]\u002B$",
+      "regexp:^www\\.google\\.[a-z]\u002B$"
+    ],
+    "enabled": true,
+    "remarks": "Google search \u002B Gmail"
+  },
+  {
+    "type": "field",
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:google"
+    ],
+    "enabled": true,
+    "remarks": "Google other"
+  }
+]
