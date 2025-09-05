@@ -1,0 +1,9 @@
+{
+  "version": "SomaPC1",
+  "routingItems": [
+    {
+      "remarks": "SomaPC",
+      "url": "https://raw.githubusercontent.com/yamalinform/v2ray-ruleset/refs/heads/main/ruleset_pc.json"
+    }
+  ]
+}
