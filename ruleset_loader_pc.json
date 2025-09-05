@@ -1,8 +1,8 @@
 {
-  "version": "SomaPCv1",
+  "version": "PCv1",
   "routingItems": [
     {
-      "remarks": "",
+      "remarks": "Soma",
       "url": "https://raw.githubusercontent.com/yamalinform/v2ray-ruleset/refs/heads/main/ruleset_pc.json"
     }
   ]
