@@ -3,7 +3,7 @@
   "routingItems": [
     {
       "remarks": "SomaPC",
-      "url": "hhttps://raw.githubusercontent.com/yamalinform/v2ray-ruleset/refs/heads/main/ruleset_pc.json"
+      "url": "https://raw.githubusercontent.com/yamalinform/v2ray-ruleset/refs/heads/main/ruleset_pc.json"
     }
   ]
 }
